@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 40px;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container>h1 {
+  margin-bottom: 100px;
+}
+
+.avatar-field {
+  cursor: pointer;
+}
+
+.avatar-field input {
+  display: none;
+}
+
+/* .preview-img {} */
